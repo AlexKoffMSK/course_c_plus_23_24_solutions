@@ -23,9 +23,9 @@ bool isVowel(char ch) {
 }
 
 int main() {
-  std::string str;
-  std::cout << "Введите строку: ";
-  getline(std::cin, str);
+  std::string str = "qwertyurewferty";
+  // std::cout << "Введите строку: ";
+  // getline(std::cin, str);
 
   for (char &ch : str) {
     if (isVowel(ch)) {

@@ -14,11 +14,11 @@ WorkingDays, Weekend, AllDays.
 
 enum WeekdayFlags {
   None = 0,
-  Monday = 1 << 0,
-  Tuesday = 1 << 1,
-  Wednesday = 1 << 2,// 100
-  Thursday = 1 << 3,
-  Friday = 1 << 4,
+  Monday = 1 << 0,   //1
+  Tuesday = 1 << 1,  //10
+  Wednesday = 1 << 2,//100
+  Thursday = 1 << 3, //1000
+  Friday = 1 << 4,   //10000
   Saturday = 1 << 5,
   Sunday = 1 << 6,
 };
