@@ -2,7 +2,14 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+/*
+Описать структуру «Авиарейс» с полями идентификатор рейса, 
+аэропорт вылета, аэропорт назначения и время вылета 
+(структура «Время»). Написать функцию, принимающую на вход 
+вектор рейсов и название аэропорта выводящую на экран информацию
+сначала обо всех рейсах, прилетающих в указанный аэропорт, а затем 
+обо всех рейсах, вылетающих из этого аэропорта.
+*/
 struct Time {
  private:
   int hours;
@@ -68,6 +75,7 @@ std::istream &operator>>(std::istream &is, Flight &flight) {
 
 int main() {
   std::vector<Flight> flights;
+
   std::string inputFile = "flights_in.txt";
   std::string outputFile = "flights_out.txt";
 
