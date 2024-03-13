@@ -1,0 +1,3 @@
+/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/sem_19/code/src/build/CMakeFiles/problem1_vector3d.dir
+/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/sem_19/code/src/build/CMakeFiles/edit_cache.dir
+/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/sem_19/code/src/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/sem_19/code/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Werror=return-type -std=gnu++17 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem1_vector3d.dir/problem1_vector3d/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/sem_19/code/src/problem1_vector3d/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/sem_19/code/src/problem1_vector3d/main.cpp",
+  "output": "CMakeFiles/problem1_vector3d.dir/problem1_vector3d/main.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/17_sem/build/CMakeFiles/titanic.dir
+/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/17_sem/build/CMakeFiles/edit_cache.dir
+/Users/mgordenko/course_c_plus_23_24_solutions/2023_2024_2nd_sem/17_sem/build/CMakeFiles/rebuild_cache.dir

@@ -1,12 +1,5 @@
-#include <iostream>
-#include <set>
-#include <vector>
-#include <fstream>
-#include <sstream>
-
 //     Main task - to implement the function fillCountries to put countries into a container]
 // (vector<Country> or map<std::string, Country>).
-
 //     Intermediate steps:
 //     1. Define operator< for both Cities and Countries based on their names.
 //     2. Read cities as pairs <City, name of the country>.
@@ -18,7 +11,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <algorithm> // For std::sort
+#include <algorithm> 
 
 struct Coordinate {
     double latitude;
@@ -73,12 +66,12 @@ void fillCountries(std::istream& inFile, std::vector<Country>& countries) {
 
         getline(iss, cityName, ',');
         getline(iss, countryName, ',');
-        iss >> population >> lat >> lon;
-
+        iss >> lat >> lon;
         Coordinate coords{lat, lon};
         City newCity{cityName, population, coords};
 
-        auto it = std::find_if(countries.begin(), countries.end(), [&countryName](const Country& c) { return c.name == countryName; });
+        auto it = std::find_if(countries.begin(), countries.end(),
+         [&countryName](const Country& c) { return c.name == countryName; });
 
         if (it != countries.end()) {
             it->cities.insert(newCity);
